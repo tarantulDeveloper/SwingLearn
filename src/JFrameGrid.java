@@ -16,9 +16,9 @@ public class JFrameGrid {
         frame.setSize(700, 500);
         frame.setLocationRelativeTo(null);
 
-        panel = new JPanel(new GridLayout());
+        panel = new JPanel(new GridLayout(0, 5, 10, 10));
 
-        for(int i = 1; i <= 5; i++) {
+        for(int i = 1; i <= 20; i++) {
             JButton button = new JButton("Button " + i);
             panel.add(button);
         }
