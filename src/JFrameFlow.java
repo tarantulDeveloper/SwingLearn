@@ -27,7 +27,7 @@ public class JFrameFlow {
         frame.setSize(500, 500);
         frame.setLocationRelativeTo(null);
 
-        frame.add(panel, BorderLayout.CENTER);
+        frame.add(panel, BorderLayout.WEST);
 
         frame.setVisible(true);
     }
