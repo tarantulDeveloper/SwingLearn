@@ -17,6 +17,11 @@ public class JFrameFlow {
         panel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 5));
         panel.setBackground(Color.ORANGE);
 
+        for(int i = 1; i <=5; i++) {
+            JButton button = new JButton("Button " + i);
+            panel.add(button);
+        }
+
         frame.setLayout(new BorderLayout());
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setSize(500, 500);
